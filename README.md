@@ -12,7 +12,6 @@ Este sistema é uma aplicação CRUD (Create, Read, Update, Delete) que permite 
 - Spring Data JPA
 - Banco de dados relacional (ex.: H2, MySQL, PostgreSQL)
 - Maven para gerenciamento de dependências
-```
 
 ### Pré-requisitos
 
