@@ -112,14 +112,6 @@ Principais classes:
 
 ### Fluxograma
 
-graph TD;
-    A[Usuário envia requisição] --> B{Dados válidos?};
-    B -- Sim --> C{Livro já existe?};
-    C -- Sim --> D[Exibe erro "Livro já cadastrado"];
-    C -- Não --> E[Salva livro no banco de dados] --> F[Retorna sucesso];
-    B -- Não --> G[Exibe erro de validação];
-
-
 ### Contribuição
 
 Sinta-se à vontade para abrir issues ou pull requests no repositório. Todo tipo de contribuição é bem-vinda!
